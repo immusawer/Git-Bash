@@ -1,0 +1,87 @@
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 ~
+$ fsutil fsinfo drives
+
+Drives: C:\ E:\ G:\
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 ~
+$ cd E:
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e
+$ ls
+'$RECYCLE.BIN'/   Courses/                 Documents/  'Kabul University Project'/   'Visa Applications'/
+ 3uTools/        'Data Mining Projects'/   GitHub/     'System Volume Information'/  'site of home work.pptx'
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e
+$ cd Courses
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses
+$ ls
+'8th Semester'/   W3Schools-2022-09-06/
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses
+$ pwd
+/e/Courses
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses
+$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses
+$ touch(Ahmad.txt)
+bash: syntax error near unexpected token `Ahmad.txt'
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses
+$ mkdir ahmad
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses
+$ touch ahmad.txt
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses
+$ ls
+'8th Semester'/   W3Schools-2022-09-06/   ahmad/   ahmad.txt
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses
+$ cd ahmad
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ ls
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ rm ahmad.txt
+rm: cannot remove 'ahmad.txt': No such file or directory
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ touch ahmad.txt
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ ls
+ahmad.txt
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ rm ahmad.txt
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ mkdir musawer
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ ls
+musawer/
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ rmdir musawer
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ ld
+bash: ld: command not found
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$ ls
+
+Musawer Dinzad@DESKTOP-8LTSM8P MINGW64 /e/Courses/ahmad
+$
